@@ -35,7 +35,6 @@ Each dataset entry records the number of matches, pattern length, execution time
 - **Longer patterns (9–12 chars)** on large texts increase time **exponentially**.
 
 ![Visualization of Execution Time vs Text Length](./visualizations/ExecutionTime vs TextLength.jpg)
----
 
 ###  Execution Time Distribution
 - Fastest search: `0.0086 ms` (Pattern length = 1)
@@ -45,7 +44,6 @@ Each dataset entry records the number of matches, pattern length, execution time
 
 ![Visualization of Execution Time Distribution](./visualizations/Execution Time Distribution.png)
     
----
 
 ###  Match Density
 | Category | Avg. Matches / 1000 Chars | Notes |
@@ -76,7 +74,12 @@ Each dataset entry records the number of matches, pattern length, execution time
 | **Average Text Length** | 864.2 |
 | **Average Matches per Entry** | 117.6 |
 
+---
+## String Matching Algorithms
 
+| Algorithm               | Worst-Case Time Complexity | Key Feature                                      |
+|-------------------------|---------------------------|-------------------------------------------------|
+| **KMP (Knuth-Morris-Pratt)** | O(N + M)                  | Linear time, pre-processes pattern only.       |
 
 
 
