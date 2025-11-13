@@ -34,7 +34,7 @@ Each dataset entry records the number of matches, pattern length, execution time
 - **Medium-length patterns (8–12 chars)** require slightly more time but remain efficient.
 - **Longer patterns (9–12 chars)** on large texts increase time **exponentially**.
 
-![Visualization of Execution Time vs Text Length](./visualizations/ExecutionTime vs TextLength.jpg)
+![Visualization of Execution Time vs Text Length](./visualizations/executiontime vs textlength.jpg)
 
 ###  Execution Time Distribution
 - Fastest search: `0.0086 ms` (Pattern length = 1)
@@ -42,7 +42,7 @@ Each dataset entry records the number of matches, pattern length, execution time
 - Average time: **0.223 ms**
 - Median time: **0.036 ms**
 
-![Visualization of Execution Time Distribution](./visualizations/Execution Time Distribution.png)
+![Visualization of Execution Time Distribution](./visualizations/execution time distribution.png)
     
 
 ###  Match Density
@@ -80,6 +80,7 @@ Each dataset entry records the number of matches, pattern length, execution time
 | Algorithm               | Worst-Case Time Complexity | Key Feature                                      |
 |-------------------------|---------------------------|-------------------------------------------------|
 | **KMP (Knuth-Morris-Pratt)** | O(N + M)                  | Linear time, pre-processes pattern only.       |
+
 
 
 
